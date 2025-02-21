@@ -1,14 +1,21 @@
 # KittyGreeter
 
 ## Description
-This simple script uses the kitty terminal emulator, and its included cli tools to display a random image from an imageset.
+This simple script uses the kitty terminal emulator and its included cli tools to display a random image in your terminal.
+Adding pngs to the images directory will allow the script to display them at random.
+
+## Dependencies
+- [kitty](https://sw.kovidgoyal.net/kitty/index.html)
+- [bash](https://www.gnu.org/software/bash/)
+- [curl](https://curl.se/)
+- [shuf](https://www.gnu.org/software/coreutils/manual/html_node/shuf-invocation.html)
 
 ## Installation
 1. Clone the repository, and cd into the kittyGreeter directory\
 ```git clone https://github.com/unix2002/kittyGreeter.git; cd kittyGreeter```
-3. Run the following command to make the greeter.sh script executable:\
+2. Run the following command to make the greeter.sh script executable:\
 ```chmod +x greeter.sh; chmod +x greeter.py; ./setup.sh```\
-4. To make the greeter script run on startup, run the following command:\
+3. *Optional* To make the greeter script run on startup, run the following command:\
 ```echo $(pwd)/greeter.sh >> ~/.bashrc; source ~/.bashrc```\
 
 ## Usage
