@@ -20,6 +20,6 @@ So that whenever you open a new terminal, you are greeted with a random image fr
 ```echo $(pwd)/greeter.sh >> ~/.bashrc; source ~/.bashrc```
 
 ## Usage
-After installation, the images directory can be filled with any image you want to display.
+After installation you can run the program  by running ```./greeter.sh```. The images directory can be filled with any image you want to be displayed.
 Simple as that. If you wish to have the images display at a set size or position, you can edit the greeter.py file to your liking.
 In order to find information on how to tweak the command that displays the image in greeter.sh, run ```man kitty +kitten icat``` in your terminal.
