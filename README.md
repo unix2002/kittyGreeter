@@ -15,7 +15,7 @@ So that whenever you open a new terminal, you are greeted with a random image fr
 1. Clone the repository, and cd into the kittyGreeter directory\
 ```git clone https://github.com/unix2002/kittyGreeter.git; cd kittyGreeter```
 2. Run the following command to make the greeter.sh script executable:\
-```chmod +x greeter.sh; chmod +x greeter.py; ./setup.sh```
+```chmod +x greeter.sh; chmod +x setup.sh; ./setup.sh```
 3. *Optional* To make the greeter script run on startup, run the following command:\
 ```echo $(pwd)/greeter.sh >> ~/.bashrc; source ~/.bashrc```
 
