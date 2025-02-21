@@ -1,9 +1,10 @@
 # KittyGreeter
 
 ## Description
-This simple script uses the kitty terminal emulator and its included cli tools to display a random image in your terminal.
-Adding pngs to the images directory will allow the script to display them at random. It can be used as a neofetch type greeter program.
-So that whenever you open a new terminal, you are greeted with a random image from the images directory.
+This script uses the kitty terminal emulator and its included cli tool icat, to display a random image in your terminal.
+Adding to the images directory will allow the script to display your images at random. 
+The script can be run manually, or added to your bashrc file to run on startup.
+
 
 ## Dependencies
 - [kitty](https://sw.kovidgoyal.net/kitty/index.html)
