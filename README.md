@@ -8,4 +8,4 @@ This simple program uses the kitty terminal emulator, and its command line tool 
 ## Installation
 1. Clone the repository, and cd into the kittyGreeter directory
 2. Fill the images directory with a bunch of images you want to display in your terminal
-3. 
+3. added some stuff
