@@ -1,3 +1,1 @@
-!/bin/bash
-
-kitty +kitten icat --align left 
+#!/bin/bash
