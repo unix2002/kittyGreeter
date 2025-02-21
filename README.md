@@ -14,7 +14,7 @@ So that whenever you open a new terminal, you are greeted with a random image fr
 ## Installation
 1. Clone the repository, and cd into the kittyGreeter directory\
 ```git clone https://github.com/unix2002/kittyGreeter.git; cd kittyGreeter```
-2. Run the following command to make the greeter.sh script executable:\
+2. Run the following command to make the scripts executable, and to run the setup:\
 ```chmod +x greeter.sh; chmod +x setup.sh; ./setup.sh```
 3. **Optional** To make the greeter script run on startup, run the following command:\
 ```echo $(pwd)/greeter.sh >> ~/.bashrc; source ~/.bashrc```
@@ -23,3 +23,9 @@ So that whenever you open a new terminal, you are greeted with a random image fr
 After installation you can run the program  by running ```./greeter.sh```. The images directory can be filled with any image you want to be displayed.
 Simple as that. If you wish to have the images display at a set size or position, you can edit the greeter.py file to your liking.
 In order to find information on how to tweak the command that displays the image in greeter.sh, run ```man kitty +kitten icat``` in your terminal.
+
+## Uninstall
+If you opted to run the greeter script every terminal session, you can remove it by running the following command:\
+```awk '!/greeter\.sh/' ~/.bashrc > temp.txt && mv temp.txt ~/.bashrc; source ~/.bashrc```
+And of course you can remove the kittyGreeter directory by running:\
+```rm -rf kittyGreeter```
